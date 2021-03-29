@@ -26,6 +26,7 @@ def start_ngrok():
     url = ngrok.connect(5000)
     print('* Tunnel: ', url)
 
+
 if app.config.get("ENV") == "development" and app.config["START_NGROK"]:
     start_ngrok()
 
