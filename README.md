@@ -215,3 +215,4 @@ Hopefully everything goes well and you have received the test email in your inbo
 
 * If you are new to flask, start [here](https://gitauharrison-blog.herokuapp.com/personal-blog)
 * If you do not know how to use the `mkvirtualenv` command, learn more [here](https://gitauharrison-blog.herokuapp.com/virtualenvwrapper)
+* If you want to see how I built this project, check [here](https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid.md)
