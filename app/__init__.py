@@ -20,6 +20,14 @@ migrate = Migrate(app, db)
 mail = Mail(app)
 
 
+def start_ngrok():
+    from pyngrok import ngrok
+
+    url = ngrok.connect(5000)
+    print('* Tunnel: ', url)
+
+if app.config.get("ENV") == "development" and app.config["START_NGROK"]:
+    start_ngrok()
 
 
 if not app.debug and not app.testing:
