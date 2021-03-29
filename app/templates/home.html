@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <!-- title -->
+                <h1>Email Support In Flask</h1>
+            </div>            
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <!-- title -->
+                <p>
+                    Learn how you can work with email in your flask app
+                    <a href="https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid.md" target="_blank">here</a>.
+                </p>
+            </div>            
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+            <img class="img-fluid" style="max-width: 100%; height: auto;" src="{{ url_for('static', filename='images/password_reset.gif') }}">
+        </div>           
+{% endblock %}
