@@ -1,8 +1,11 @@
-# Sending Emails Using Twilio SendGrid
+# Email Support In Flask
 
 ![Reset Email Demo](app/static/images/password_reset_copy.gif)
 
-You can use `flask-mail` to facilitate email sending and recieving in a flask app. This application shows how you can use it to locally send an email to a registered user of the application. Towards the end, I show how you can use [Twilio SendGrid](https://sendgrid.com) to send an email.
+You can use `flask-mail` to facilitate email sending and recieving in a flask app. This application shows how you can use it to locally send an email to a registered user of the application. Learn how Flask-Mail was used to add email support [here](https://github.com/GitauHarrison/notes/blob/master/email_support_in_flask.md).
+
+
+Towards the end, I show how you can use [Twilio SendGrid](#sending-emails-using-twilio-sendgrid) to send an email.
 
 ### Features
 
@@ -213,6 +216,6 @@ Hopefully everything goes well and you have received the test email in your inbo
 
 ### Reference
 
-* If you are new to flask, start [here](https://gitauharrison-blog.herokuapp.com/personal-blog)
-* If you do not know how to use the `mkvirtualenv` command, learn more [here](https://gitauharrison-blog.herokuapp.com/virtualenvwrapper)
-* If you want to see how I built this project, check [here](https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid.md)
+* If you are new to flask, start [here](https://github.com/GitauHarrison/notes/blob/master/start_flask_server.md)
+* If you do not know how to use the `mkvirtualenv` command, learn more [here](https://github.com/GitauHarrison/notes/blob/master/virtualenvwrapper_setup.md)
+* If you want to you want to learn how to use SendGrid, check [here](https://github.com/GitauHarrison/notes/blob/master/twilio_sendgrid/00_overview.md)
